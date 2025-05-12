@@ -11,6 +11,7 @@ const pool = mysql.createPool({
     ssl: {
         rejectUnauthorized: false
     }
+    // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
 });
 
 // helper function to perform SQL queries

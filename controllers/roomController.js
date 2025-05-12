@@ -92,7 +92,7 @@ const roomController = {
             if (result.affectedRows === 0) {
                 return res.status(404).json({ message: 'Room not found' });
             }
-
+            // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
             const updatedRoom = await query('SELECT * from rooms WHERE id = ?', [req.params.id]);
 
             res.json({ message: 'Room updated successfully', room: updatedRoom[0] });

@@ -79,7 +79,7 @@ router.get('/', hotelController.getAllHotels);
  *         description: Hotel not found
  */
 router.get('/:id', hotelController.getHotelById);
-
+// < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
 /**
  * @swagger
  * /hotels/{id}:

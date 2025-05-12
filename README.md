@@ -2,6 +2,10 @@
 
 This is a backend API for a hotel booking system built with **Node.js**, **Express**, **MongoDB**, and **JWT**. It supports user registration, login, role-based access control, hotel and room management (for admins), and room booking (for users).
 
+## Deployed Link
+
+The API is deployed and accessible at: [https://hotel-booking-backend-nr66.onrender.com](https://hotel-booking-backend-nr66.onrender.com)
+
 ## Features
 
 -  User authentication with JWT

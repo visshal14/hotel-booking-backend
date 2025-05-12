@@ -60,7 +60,7 @@ router.post('/', verifyToken, isAdmin, roomController.createRoom);
  *         description: List of rooms
  */
 router.get('/', roomController.getAllRooms);
-
+// < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
 /**
  * @swagger
  * /rooms/{id}:

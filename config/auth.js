@@ -18,7 +18,7 @@ const hashPassword = async (password) => {
 const comparePassword = async (password, hashedPassword) => {
     return await bcrypt.compare(password, hashedPassword);
 };
-
+// < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
 module.exports = {
     JWT_SECRET,
     generateToken,

@@ -42,7 +42,7 @@ const userController = {
 
             // hash the password
             const hashedPassword = await hashPassword(password);
-
+            // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
             // Create new user
             const id = uuidv4();
 
@@ -100,7 +100,7 @@ const userController = {
 
             const user = userResult[0];
             res.json(user);
-
+            // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
         } catch (error) {
             console.error('Error fetching user details:', error);
             res.status(500).json({ message: 'Internal server error' });

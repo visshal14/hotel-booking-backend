@@ -27,13 +27,13 @@ const options = {
 
         servers: [
             {
-                url: 'http://localhost:3000',
+                url: 'https://hotel-booking-backend-nr66.onrender.com',
             },
         ],
     },
-    apis: ['./routes/*.js'], // Path to your route files for Swagger comments
+    apis: ['./routes/*.js'],
 };
-
+// < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
 const swaggerSpec = swaggerJSDoc(options);
 
 module.exports = { swaggerUi, swaggerSpec };

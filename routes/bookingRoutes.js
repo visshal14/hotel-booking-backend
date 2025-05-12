@@ -90,7 +90,7 @@ router.get('/user', verifyToken, bookingController.getUserBookings);
  *         description: Booking not found
  */
 router.post('/cancel/:id', verifyToken, bookingController.cancelBooking);
-
+// < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
 /**
  * @swagger
  * /bookings:

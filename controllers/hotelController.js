@@ -76,7 +76,7 @@ const hotelController = {
             res.status(500).json({ message: 'Internal server error' });
         }
     },
-
+    // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
     // Admin: delete a hotel
     deleteHotel: async (req, res) => {
         try {

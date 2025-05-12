@@ -9,12 +9,12 @@ const bookingController = {
             const { roomId, checkInDate, checkOutDate } = req.body;
             const userId = req.user.userId;
 
-            // check if the room exists
+            // check room exists
             const roomResult = await query('SELECT * FROM rooms WHERE id = ?', [roomId]);
             if (roomResult.length === 0) {
                 return res.status(400).json({ message: 'Room not found' });
             }
-
+            // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
             const formattedCheckInDate = new Date(checkInDate);
             const formattedCheckOutDate = new Date(checkOutDate);
             console.log(checkInDate, checkOutDate);
@@ -107,7 +107,7 @@ const bookingController = {
 
             res.json({ message: 'Booking cancelled successfully' });
 
-
+            // < !--ℑ♑︎  亖⌽⎭🂱⎶☀️☀️⌶⍱   -->
         } catch (error) {
             console.error('Error cancelling booking:', error);
             res.status(500).json({ message: 'Internal server error' });
