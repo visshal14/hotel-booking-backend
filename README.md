@@ -6,6 +6,11 @@ This is a backend API for a hotel booking system built with **Node.js**, **Expre
 
 The API is deployed and accessible at: [https://hotel-booking-backend-nr66.onrender.com](https://hotel-booking-backend-nr66.onrender.com)
 
+ * @swagger
+ * For API documentation and to explore the available endpoints, visit:
+ * https://hotel-booking-backend-nr66.onrender.com/api-docs/#/
+
+
 ## Features
 
 -  User authentication with JWT
